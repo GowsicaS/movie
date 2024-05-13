@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.whole-container{
+    padding: 50px;
+}
+.genre-selector-wrapper{
+    display: flex;
+}
+.movie-bars{
+    box-shadow: 1px 1px 10px 1px rgb(209, 214, 214);
+    margin: 40px 0px 20px 0px;
+    padding: 5px 20px;
+}
+.main-heading{
+    text-align: center;
+    margin: 20px 0px;
+}
+.movie-name{
+    margin: 8px 0px;
+}
+.movie-genre{
+    margin: 8px 0px;
+    color: rgb(179, 175, 175);
+}
+span{
+    font-weight: 900;
+    color: black;
+}

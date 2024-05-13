@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="whole-container">
+        <h1 class="main-heading">Movie Recommendation System</h1>
+        <div class="contents">
+            <div class="genre-selector-wrapper">
+                <label class="genre-selector">Select Genre:</label>
+                <select>
+                    <option>All</option>
+                    <option>Action</option>
+                    <option>comedy</option>
+                    <option>drama</option>
+                </select>
+            </div>
+            <div class="movie-bars">
+                <h1 class="movie-name">The Dark Knight</h1>
+                <p class="movie-genre"><span>Genre: </span>action</p>
+            </div>
+            <div class="movie-bars">
+                <h1 class="movie-name">Inception</h1>
+                <p class="movie-genre"><span>Genre: </span>action</p>
+            </div>
+            <div class="movie-bars">
+                <h1 class="movie-name">The Hangover</h1>
+                <p class="movie-genre"><span>Genre: </span>comedy</p>
+            </div>
+            <div class="movie-bars">
+                <h1 class="movie-name">Superbad</h1>
+                <p class="movie-genre"><span>Genre: </span>comedy</p>
+            </div>
+            <div class="movie-bars">
+                <h1 class="movie-name">The Shawshank Redemption</h1>
+                <p class="movie-genre"><span>Genre: </span>drama</p>
+            </div>
+            <div class="movie-bars">
+                <h1 class="movie-name">Forrest Gump</h1>
+                <p class="movie-genre"><span>Genre: </span>drama</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const movie = [{movieName:"The Dark Knight", genre: "action"},
+                       {movieName:"Inception", genre: "action"},
+                       {movieName:"The Hangover", genre: "comedy"},
+                       {movieName:"Superbad", genre: "comedy"},
+                       {movieName:"The Shawshank Redemption", genre: "drama"},
+                       {movieName:"Forrest Gump", genre: "drama"}
+                       ]
+    </script>
+</body>
+</html>
